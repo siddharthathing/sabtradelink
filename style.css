@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.headerdiv{
+    display: flex;
+    margin: 0 20px;
+}
+.logo{
+    width: 162px;
+height: 49px;
+left: 86px;
+top: 63px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 800;
+font-size: 35px;
+line-height: 49px;
+/* identical to box height */
+color: #000000;
+margin-right: 100px;
+}
+.navlist{
+    
+    display: flex;
+    padding-top: 15px;
+}
+.navlist li{
+    list-style-type: none;
+    padding-left: 20px;
+}
+.navlist li a{
+    width: 74px;
+height: 23px;
+text-decoration: none;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.navlist li a:hover{
+    color: #0055D6;
+}
+.hero{
+    display: flex;
+    height: auto;
+    max-width: 1456px;
+    margin: 10px auto;
+    flex-wrap: wrap;
+}
+.herocol1{
+    margin-top: 150px;
+   
+    width: 748px;
+    height: 336px;
+}
+.herocol1__title{
+    padding-right: 62px;
+    width: 748px;
+height: auto;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 80px;
+
+color: #000000;
+}
+.herocol1__subtitle{
+    padding-top: 31px;
+    padding-right: 10px;
+    width: 546px;
+height: auto;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 25px;
+
+color: #7E7E7E;
+}
+.herocol1__butn{
+    margin-top: 27px;
+    border: none;
+    width: 219px;
+height: 63px;
+left: 143px;
+top: 547px;
+
+background: #0055D6;
+border-radius: 5px;
+}
+.herocol1__butn:hover{
+    opacity: 80%;
+}
+.herocol1__butn_txt{
+   
+height: 23px;
+text-align: center;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.herocol2{
+    margin-top: 69px;
+    height: 512px;
+    width: 658px;
+    background-image: url("./img/kindpng_3923313.png");
+    background-position: center; 
+    background-size:     cover;  
+}
+.product{
+    height: auto;
+    max-width: 1456px;
+    margin: 0 auto;
+    margin-top: 120px;
+
+}
+.product_container1{
+    max-width: 1348px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;  
+}
+.product_container1_col1{
+    height: 685px;
+    width: 650px;
+    margin-right: 50px;    
+}
+.product_container1_col1_card{
+    padding:60px;
+    display: flex;
+    height: 330px;
+    width: 650px;
+    background-color: #1F2022;
+}
+.product_container1_col1_card_col1{
+margin-right:20px;
+    width: 272px;
+height: 167px;
+}
+.product_container1_col1_card_col2{
+    width: 380px;
+    height: 341px;
+    background-image: url("./img/kindpng_7808185.png");
+    background-size: cover;
+}
+
+.product_container1_col2{
+    height: 685px;
+    width: 650px;
+    background-color: #0055D6;
+    padding-left: 42px;
+}
+.product_container1_col2_heading{
+    display: flex;
+    height: 82px;
+    width: 292px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-bottom: 56px;
+}
+.product_container1_col2_heading_col1{
+    height: 82px;
+    width: 190px;
+}
+.product_container1_col2_heading_col1_text1{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 46px;
+    color: #FFFFFF;
+
+}
+.product_container1_col2_heading_col1_text2{
+    
+    padding-top:11px;
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 25px;
+color: #FFFFFF;
+}
+.product_container1_col2_heading_col2{
+    margin-top: 12px;
+    margin-left: 30px;
+    width: 63px;
+height: 63px;
+left: 1164px;
+top: 900px;
+border: none;
+background: #2E74DD;
+border-radius: 5px;
+}
+
+.product_container1_col2_heading_col2_btntxt{
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 25px;
+color: #FFFFFF;
+}
+.product_container2{
+    display: flex;
+    max-width: 1348px;
+    margin: 0 auto;  
+    margin-top: 20px;  
+
+}
