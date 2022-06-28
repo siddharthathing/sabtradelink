@@ -225,3 +225,22 @@ color: #FFFFFF;
     margin-top: 20px;  
 
 }
+.product_ads{
+    display: flex;
+    max-width: 1348px;
+    margin: 0 auto;  
+    margin-top: 20px;  
+}
+.feature_prod{
+    display: flex;
+    max-width: 1348px;
+    margin: 0 auto;  
+    margin-top: 20px;
+}
+.feature_prod1{
+    padding:60px;
+    display: flex;
+    height: 330px;
+    width: 650px;
+    background-color: #1F2022; 
+}
